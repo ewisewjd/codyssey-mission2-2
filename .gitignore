@@ -1,0 +1,109 @@
+# ==========================================
+# Python
+# ==========================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# ==========================================
+# Type Checking / Linting
+# ==========================================
+
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.log
+!evidence/*.log
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Project Specific
+# ==========================================
+
+# Keep collaboration evidence tracked:
+# docs/
+# evidence/
+# SUBMISSION.md
+# README.md
+#
+# Keep GitHub templates and workflows tracked:
+# .github/
+#
+# Keep empty directories using .gitkeep
